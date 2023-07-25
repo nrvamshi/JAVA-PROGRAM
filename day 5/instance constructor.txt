@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Student {
+    int rno;
+    String stu;
+    Student(int rno1,String stu1)
+    {
+        rno=rno1;
+        stu=stu1;
+    }
+}
+class main{
+    public static void main(String[] args) {
+        Student s1= new Student(1001,"Tommy");
+        Student s2= new Student(1002,"Dummy");
+        System.out.println("s1 roll number: "+s1.rno);
+        System.out.println("s1 Name: "+s1.stu);
+        System.out.println("s1 roll number: "+s2.rno);
+        System.out.println("s1 Name: "+s2.stu);
+    }
+}

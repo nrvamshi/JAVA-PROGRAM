@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class Student {
+    int rno;
+    String stu;
+    double m1,m2,m3,m4;
+    Student()
+    {
+        rno=1001;
+        stu="Tommy";
+        m1=90;
+        m2=90;
+        m3=90;
+        m4=90;
+    }
+}
+class main{
+    public static void main(String[] args) {
+        Student s1= new Student();
+        Student s2= new Student();
+System.out.println("s1 roll number: "+s1.rno);
+        System.out.println("s1 Name: "+s1.stu);
+        System.out.println("s1 marks1: "+s1.m1);
+        System.out.println("s1 marks2: "+s1.m2);
+        System.out.println("s1 marks3: "+s1.m3);
+        System.out.println("s1 marks4: "+s1.m4);
+        System.out.println("s1 roll number: "+s2.rno);
+        System.out.println("s1 Name: "+s2.stu);
+        System.out.println("s1 marks1: "+s2.m1);
+        System.out.println("s1 marks2: "+s2.m2);
+        System.out.println("s1 marks3: "+s2.m3);
+        System.out.println("s1 marks4: "+s2.m4);
+        //System.out.println("The average of the marks");
+       // s1.average();
+    }
+}

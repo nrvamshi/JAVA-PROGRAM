@@ -1,0 +1,33 @@
+Date:19/07/2023
+
+1) what is an user defined datatype.
+2) what is static in java.
+3) what is the default value of auto variable in java.
+4) what is the default value of static variable in java.
+5) when do we use static variable.
+6) where is local variable data stored.
+
+Date:20/7/2023
+
+1) write a palindrome program for checking an integer in java.
+2) write a java program to display number from 1 to 5.
+3) write a java program to compute the sum of 5 positive numbers.
+4) write a java program to find largest of three numbers using ternary operator.
+
+Date:21/7/2023
+
+1) what is Sacnner in java.
+2) explain Scanner object = new Scanner(System.in).
+3) write a java program for sum of two input variables(take the input from the user).
+4) write the java program for the following pattern and trace the output
+     *
+    **
+   ***
+  **** 
+ *****
+5) write a java program for the following sequence and trace the output
+     1
+    12
+   123
+  1234
+ 12345

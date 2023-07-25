@@ -1,0 +1,35 @@
+class Student {
+    int rno;
+    String stu;
+    double m1,m2,m3,m4;
+    public void average()
+    {
+        double avg=(m1+m2+m3+m4)/4;
+        System.out.println("Average marks is: "+avg);
+    }
+}
+class main{
+    public static void main(String[] args) {
+        Student s1=new Student();
+        System.out.println("Student roll number before assignment: "+s1.rno);
+        s1.rno=1001;
+        System.out.println("s1 roll number"+s1.rno);
+        System.out.println("Student Name before assignment: "+s1.stu);
+        s1.stu="Tommy";
+        System.out.println("s1 Name "+s1.stu);
+        System.out.println("Student marks1 before assignment: "+s1.m1);
+        s1.m1=95;
+        System.out.println("s1 marks1"+s1.m1);
+        System.out.println("Student marks2 before assignment: "+s1.m2);
+        s1.m2=98;
+        System.out.println("s1 marks2"+s1.m2);
+        System.out.println("Student marks3 before assignment: "+s1.m3);
+        s1.m3=90;
+        System.out.println("s1 marks3"+s1.m3);
+        System.out.println("Student marks4 before assignment: "+s1.m4);
+        s1.m4=92;
+        System.out.println("s1 marks4"+s1.m4);
+        System.out.println("The average of the marks");
+        s1.average();
+    }
+}
